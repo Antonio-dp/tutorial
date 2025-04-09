@@ -1,4 +1,9 @@
 ---
+import '../styles/global.css';
+
+const pageTitleInicio = "Página de inicio";
+const pageTitleAbout = "Sobre mi";
+const pageTitleBlog = "Mi blog de Astro aprendizaje";
 ---
 
 <html lang="es">
@@ -10,9 +15,9 @@
     <title>Astro</title>
   </head>
   <body>
-    <a href="/">Inicio</a>
-    <a href="/about/">Sobre mi</a>
-    <a href="/blog/">Blog</a>
+    <a href="/">{pageTitleInicio}</a>
+    <a href="/about/">{pageTitleAbout}</a>
+    <a href="/blog/">{pageTitleBlog}</a>
     <h1>Mi sitio ASTRO</h1>
   </body>
 </html>
